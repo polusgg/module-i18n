@@ -1,22 +1,26 @@
 {
-  "name": "@polusgg/plugin-template",
+  "name": "@polusgg/module-i18n",
   "np-plugin": true,
   "version": "1.0.0",
-  "description": "Template repository for creating plugins with NodePolus",
+  "description": "Polus.gg internationalization handler",
   "scripts": {
     "lint": "eslint . --ext .ts",
     "lint-and-fix": "eslint . --ext .ts --fix"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/polusgg/plugin-template.git"
+    "url": "git+https://github.com/polusgg/module-i18n.git"
   },
-  "author": "Polus.gg",
+  "author": {
+    "name": "Rose Hall",
+    "email": "rose@polus.gg"
+  },
+  "contributors": [],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/polusgg/plugin-template/issues"
+    "url": "https://github.com/polusgg/module-i18n/issues"
   },
-  "homepage": "https://github.com/polusgg/plugin-template",
+  "homepage": "https://github.com/polusgg/module-i18n",
   "devDependencies": {
     "@types/node": "^14.14.22",
     "@typescript-eslint/eslint-plugin": "^4.15.0",
@@ -26,6 +30,5 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@nodepolus/framework": "latest"
   }
 }

@@ -1,0 +1,17 @@
+{
+  "global.example.basic": "Exemple de chaîne de caractères",
+  "global.example.plural": {
+    "args.count==1": "Exemple de chaîne de caractères",
+    "args.count!=1": "Exemples de chaîne de caractères"
+  },
+  "global.example.gender": {
+    "args.gender=='F'": "Son exemple de chaîne de caractères",
+    "args.gender=='M'": "Son exemple de chaîne de caractères",
+    "args.gender=='X'": "Leur exemple de chaîne de caractères"
+  },
+  "global.example.named": {
+    "args.gender=='F'": "Exemple de chaîne de caractères de {args.name}, c’est elle qui l’a crée.",
+    "args.gender=='M'": "Exemple de chaîne de caractères de {args.name}, c’est lui qui l’a crée.",
+    "args.gender=='X'": "Exemple de chaîne de caractères de {args.name}, c’est eux qui l’ont crée."
+  }
+}

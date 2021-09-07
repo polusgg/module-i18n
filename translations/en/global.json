@@ -1,0 +1,17 @@
+{
+  "global.example.basic": "Example string",
+  "global.example.plural": {
+    "args.count==1": "Example string",
+    "args.count!=1": "Example strings"
+  },
+  "global.example.gender": {
+    "args.gender=='F'": "Her example string",
+    "args.gender=='M'": "His example string",
+    "args.gender=='X'": "Their example string"
+  },
+  "global.example.named": {
+    "args.gender=='F'": "{args.name}'s example string, she made it.",
+    "args.gender=='M'": "{args.name}'s example string, he made it.",
+    "args.gender=='X'": "{args.name}'s example string, they made it."
+  }
+}
